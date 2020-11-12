@@ -15,6 +15,7 @@ function separatePositive(nums) {
         // if value at left is negative and the value at right is positive, we swap the values, move both indexes
         //  - if both are negative, right goes down one index
         //  - if both are positive, left goes up one index
+        // feedback: change nums[left] as a variable 
         if (nums[left] < 0 && nums[right] > 0) {
             [nums[left], nums[right]] = [nums[right], nums[left]];
             left++;
