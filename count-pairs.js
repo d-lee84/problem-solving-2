@@ -1,6 +1,6 @@
 "use strict";
 
-/* Function returns the number of pairs that sum to the target number in the array of numbers */
+/* Function returns the number of pairs that sum to the target number in the array of numbers O(n) time complexity */
 function countPairs(nums, target) {
 
     // create counter for the number of pairs
